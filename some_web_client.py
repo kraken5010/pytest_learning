@@ -20,9 +20,10 @@ class SomeResourceClient:
         return datetime.fromtimestamp(last_action_time - time_diff)
 
 
-some_resource_client = SomeResourceClient("https://www.avito.ru")
-res = some_resource_client.get_user_last_action_time("173e8385d5459f5eb8531bb3543081695e0d83e5a7f1e73b9a5b9c91511b5867")
-print(res)
+# some_resource_client = SomeResourceClient("https://www.avito.ru")
+# res = some_resource_client.get_user_last_action_time("173e8385d5459f5eb8531bb3543081695e0d83e5a7f1e73b9a5b9c91511b5867")
+# print(res)
+
 
 # res = requests.get("https://www.avito.ru/web/2/user/get-status/173e8385d5459f5eb8531bb3543081695e0d83e5a7f1e73b9a5b9c91511b5867")
 # print(res.text)
